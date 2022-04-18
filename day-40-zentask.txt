@@ -1,0 +1,9 @@
+1). heroku url - https://timestamp-zen-2022.herokuapp.com/
+
+
+2). github url - https://github.com/Kirans05/day-40-task
+
+
+3). endpoints - (a) => /create => for creating text files with time stamp.txt
+
+                        (b) => /files => for getting the files created of in a particular folder    
