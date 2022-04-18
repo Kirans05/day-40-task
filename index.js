@@ -3,6 +3,8 @@ const path = require("path")
 let dirpath = path.join(__dirname,"files")
 const express = require("express")
 let app = express()
+let port = process.env.PORT || 4000
+
 
 app.get("/create",async (req,res)=>{
     await setInterval(() => {
@@ -25,5 +27,5 @@ app.get("/files",async (req,res)=>{
             res.send(files)
     })
 })
-app.listen(4000)
+app.listen(port)
 
